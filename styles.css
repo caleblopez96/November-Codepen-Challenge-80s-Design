@@ -1,0 +1,177 @@
+/* in progress */
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=DotGothic16&family=Press+Start+2P&family=Righteous&display=swap");
+
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-image: linear-gradient(
+		150deg,
+		hsl(346deg 100% 55%) 0%,
+		hsl(328deg 100% 46%) 15%,
+		hsl(273deg 61% 51%) 45%,
+		hsl(212deg 100% 57%) 75%,
+		hsl(181deg 100% 50%) 100%
+	);
+	margin: 0;
+	width: 100%;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.ad {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+h1 {
+	transform: scale(1) rotate(-5deg);
+	color: #323336;
+	font-family: "Righteous", cursive;
+	font-size: 7rem;
+	line-height: 150%;
+	position: absolute;
+	text-align: center;
+	top: 30%;
+	text-shadow: 
+	2px 2px 8px hsl(346deg 100% 55%),
+	2px 2px 8px hsl(328deg 100% 46%),
+	2px 2px 8px hsl(301deg 100% 34%),
+	2px 2px 8px hsl(273deg 61% 51%),
+	2px 2px 8px hsl(254deg 75% 63%),
+	2px 2px 8px hsl(212deg 100% 57%),
+	2px 2px 8px hsl(192deg 100% 50%),
+	2px 2px 8px hsl(181deg 100% 50%);
+	word-wrap: break-word;
+}
+
+
+span {
+	color: #e2e2e2;
+	font-style: italic;
+	text-shadow: 
+	2px 2px 8px hsl(346deg 100% 55%),
+	2px 2px 8px hsl(328deg 100% 46%),
+	2px 2px 8px hsl(301deg 100% 34%),
+	2px 2px 8px hsl(273deg 61% 51%),
+	2px 2px 8px hsl(254deg 75% 63%),
+	2px 2px 8px hsl(212deg 100% 57%),
+	2px 2px 8px hsl(192deg 100% 50%),
+	2px 2px 8px hsl(181deg 100% 50%);
+}
+
+
+
+.hero {
+	max-width: 1250px;
+	display: block;
+	margin: 5rem auto;
+	box-shadow: 2px 2px 8px #323336;
+	border-radius: 1%;
+}
+
+h2 {
+	color: #f0f0f0;
+	text-align: center;
+	font-family: "Righteous", cursive;
+	font-size: 3rem;
+	padding: 1rem 0;
+	line-height: 135%;
+	text-shadow: 2px 2px 8px #323336;
+	margin: 0 auto;
+	width: 90%;
+}
+
+h2:last-child{
+	font-family: "Righteous", cursive;
+	font-size: 4rem;
+	color: #f0f0f0;
+	text-shadow: 2px 2px 8px #212121;
+}
+
+p {
+	font-family: "DotGothic16", cursive;
+	padding: .5rem;
+	font-size: 1.2rem;
+}
+
+.copy {
+	margin: 0 auto;
+	max-width: 75%;
+	display: block;
+	line-height: 150%;
+	padding: 0 1rem;
+}
+
+.img {
+	max-width: 100%;
+	display: flex;
+	margin: 0 auto;
+	box-shadow: 2px 2px 8px #323336;
+	border-radius: 1%;
+	margin: 5rem auto;
+}
+
+.imgTwo {
+	box-shadow: 2px 2px 8px #323336;
+	border-radius: 1%;
+	margin: 5rem auto 0 auto;
+	opacity: 75%;
+}
+
+/*media queries*/ 
+@media only screen and (max-width: 768px) {
+	html{background-image: radial-gradient(
+		150deg,
+		hsl(346deg 100% 55%) 0%,
+		hsl(328deg 100% 46%) 14%,
+		hsl(301deg 100% 34%) 29%,
+		hsl(273deg 61% 51%) 43%,
+		hsl(254deg 75% 63%) 57%,
+		hsl(212deg 100% 57%) 71%,
+		hsl(192deg 100% 50%) 86%,
+		hsl(181deg 100% 50%) 100%
+	);
+	}
+	.container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		max-width: none;
+	}
+	h1 {
+		font-size: 8rem;
+	}
+	span {
+		padding: 0 .5rem;
+	}
+	h2 {
+		margin: 0 auto;
+		font-size: 3rem;
+	}
+	p {
+		font-size: 3rem;
+		line-height: 150%;
+	}
+	.copy {
+		min-width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
